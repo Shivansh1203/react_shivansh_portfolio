@@ -17,7 +17,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          My Resume
+          More About Me
         </Button>
 {/* 
         <Button
