@@ -10,7 +10,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
+              src='images/T-AIM_1.png'
               text='Team cl_AI_mate
               It aims to predict the heat waves and AQI index for tier-2 cities in Telangana - 
           Adilabad, Nizamabad, Warangal, Karimnagar, and Khammam with a monthly frequency.'
@@ -18,7 +18,7 @@ function Cards() {
               path='/projects'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='images/T-AIM_3.png'
               text='Team cl_AI_mate
               It aims to predict the heat waves and AQI index for tier-2 cities in Telangana - 
           Adilabad, Nizamabad, Warangal, Karimnagar, and Khammam with a monthly frequency.'
@@ -28,22 +28,22 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='images/B2Dpic.jpeg'
               text='Bye2Doubts'
               label='Web Development'
               path='/projects'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src='images/T-AIM winner together.png'
               text='Hackathon Winner'
               label='Hackathon Winner'
               path='/achievements'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src='images/alumniapppic.jpeg'
               text='Alumni App'
               label='App Development'
-              path='/contact'
+              path='/projects'
             />
           </ul>
         </div>
