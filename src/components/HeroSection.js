@@ -16,8 +16,9 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          My Resume
+          GitHub
         </Button>
+{/* 
         <Button
           className='btns'
           buttonStyle='btn--primary'
@@ -25,7 +26,7 @@ function HeroSection() {
           onClick={console.log('hey')}
         >
           LinkedIn <i class="fa fa-linkedin-square"></i>
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
