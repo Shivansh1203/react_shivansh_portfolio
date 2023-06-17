@@ -13,7 +13,7 @@ function Footer() {
         <p className='footer-subscription-text'>
         Always try to explore yourself to reach new horizons
         </p>
-        <div className='input-areas'>
+        {/* <div className='input-areas'>
           <form>
             <input
               className='footer-input'
@@ -22,12 +22,12 @@ function Footer() {
               placeholder='Your Email'
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
-            <p>
-              
-            </p>
-            shivansh.rastogi2002@gmail.com
           </form>
-        </div>
+        </div> */}
+        <p>
+              
+         </p>
+        shivansh.rastogi2002@gmail.com
       </section>
       <section class='social-media'>
         <div class='social-media-wrap'>
@@ -38,32 +38,33 @@ function Footer() {
             </Link>
           </div>
           <small class='website-rights'>Shivansh © 2023</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
+          <div className='social-icons'>
+            <a
+              className='social-icon-link youtube'
+              href='https://www.youtube.com/channel/UC-Et3-fagHHWUSA2-3jG5eQ'
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+              <i className='fab fa-youtube' />
+            </a>
+            <a
+              className='social-icon-link twitter'
+              href='https://twitter.com/Shivansh_120310'
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+              <i className='fab fa-twitter' />
+            </a>
+            <a
+              className='social-icon-link linkedin'
+              href='https://www.linkedin.com/in/shivansh-rastogi-04bb27225/'
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
+              <i className='fab fa-linkedin' />
+            </a>
+        </div>
+
         </div>
       </section>
     </div>

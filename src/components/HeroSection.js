@@ -10,13 +10,14 @@ function HeroSection() {
       <h1>Shivansh Rastogi</h1>
       <p>T-AIM NASSCOM Capgemini Hackathon Winner</p>
       <p>MERN Stack Developer and ML Enthusiast</p>
+      <p>CGPA - 9.03</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GitHub
+          My Resume
         </Button>
 {/* 
         <Button

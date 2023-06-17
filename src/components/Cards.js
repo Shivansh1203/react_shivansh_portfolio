@@ -11,7 +11,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/T-AIM_1.png'
-              text='Team cl_AI_mate
+              text='Team cl_AI_mate - 
               It aims to predict the heat waves and AQI index for tier-2 cities in Telangana - 
           Adilabad, Nizamabad, Warangal, Karimnagar, and Khammam with a monthly frequency.'
               label='Machine Learning'
@@ -19,7 +19,7 @@ function Cards() {
             />
             <CardItem
               src='images/T-AIM_3.png'
-              text='Team cl_AI_mate
+              text='Team cl_AI_mate - 
               It aims to predict the heat waves and AQI index for tier-2 cities in Telangana - 
           Adilabad, Nizamabad, Warangal, Karimnagar, and Khammam with a monthly frequency.'
               label='Machine Learning'
