@@ -8,14 +8,15 @@ function HeroSection() {
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>Shivansh Rastogi</h1>
-      <p>What are you waiting for?</p>
+      <p>T-AIM NASSCOM Capgemini Hackathon Winner</p>
+      <p>MERN Stack Developer and ML Enthusiast</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          My Resume
         </Button>
         <Button
           className='btns'
@@ -23,7 +24,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          LinkedIn <i class="fa fa-linkedin-square"></i>
         </Button>
       </div>
     </div>
